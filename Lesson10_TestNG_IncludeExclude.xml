@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionBanking">
+    <test name="BankingPriorityHigh">
+        <classes>
+            <class name="lesson_9.TestNG_InvocationCountRepeatableTest">
+                <methods>
+                    <include name="goToGoogle"/>
+                    <include name=""/>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+</suite>

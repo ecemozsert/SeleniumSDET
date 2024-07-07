@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionBanking">
+    <test name="BankingPriorityHigh">
+        <classes>
+            <class name="lesson_9.TestNG_Enabled_false"></class>
+            <class name="lesson_9.AmazonTest"></class>
+        </classes>
+    </test>
+</suite>

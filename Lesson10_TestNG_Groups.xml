@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Banking">
+    <test name="BankingPriorityHigh">
+<groups>
+    <run>
+        <include name="regression"> </include>
+        <exclude name="homePage"/>
+        <include name="Subpages"/>
+    </run>
+</groups>
+        <classes>
+        <class name="lesson_10.GroupsExamples"> </class>
+        </classes>
+    </test>
+</suite>

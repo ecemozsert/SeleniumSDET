@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Examples"> 
+    <test name="Basic Practical Tests" >
+        <packages>
+            <package name="lesson_9"></package>
+        </packages>
+    </test>
+</suite>
