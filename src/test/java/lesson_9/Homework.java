@@ -17,7 +17,7 @@ import static org.testng.Assert.assertEquals;
 public class Homework {
     WebDriver driver;
     @BeforeMethod
-    public void startingPoint() throws InterruptedException {
+    public void setup() throws InterruptedException {
      //   WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();

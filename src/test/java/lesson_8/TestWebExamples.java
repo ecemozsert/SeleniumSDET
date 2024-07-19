@@ -29,7 +29,7 @@ public class TestWebExamples {
     }
 
     @AfterClass
-    public static void closeTests(){
+    public static void tearDown(){
         driver.quit();
     }
 

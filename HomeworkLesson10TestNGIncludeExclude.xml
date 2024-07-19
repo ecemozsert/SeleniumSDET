@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionBanking">
+    <test name="BankingPriorityHigh">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="lesson_10.HomeworkLesson10_Trendyol">
+                <methods>
+                    <exclude name="addToChart"/>
+                    <exclude name="dressSize"/>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+</suite>
