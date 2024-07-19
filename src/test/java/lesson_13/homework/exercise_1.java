@@ -29,7 +29,7 @@ public class exercise_1 {
         driverUtils.getDriver().findElement(By.xpath("//a[normalize-space()='Our Products']")).click();
         driverUtils.getDriver().findElement(By.id("container-product6")).click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[text()='Close']"))).click();
-
+wait.until();
 
 
 
