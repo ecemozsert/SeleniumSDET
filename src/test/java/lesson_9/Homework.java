@@ -99,6 +99,7 @@ public class Homework {
         sepeteEkle.click();
 
         Thread.sleep(2000);
+        driver.findElement(By.xpath("//div[@class='sp-itm'][1]")).click();
         WebElement basketItemCountContainer = driver.findElement(By.xpath("//div[@class='basket-item-count-container visible']"));
         String dressNumber = basketItemCountContainer.getText();
         String expected = "1";
